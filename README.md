@@ -21,6 +21,4 @@ See `SKILL.md` for full documentation.
 See `examples/sample/` for a minimal working deck:
 - `sample_deck.json` — input data
 - `sample_deck.html` — rendered interactive deck
-- `screenshot.png` — preview
 
-![Sample Screenshot](examples/sample/screenshot.png)
