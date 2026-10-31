@@ -15,3 +15,12 @@ A skill for building interactive HTML graph decks — node-based visual presenta
 ## Usage
 
 See `SKILL.md` for full documentation.
+
+## Sample
+
+See `examples/sample/` for a minimal working deck:
+- `sample_deck.json` — input data
+- `sample_deck.html` — rendered interactive deck
+- `screenshot.png` — preview
+
+![Sample Screenshot](examples/sample/screenshot.png)

@@ -1,0 +1,20 @@
+{
+  "title": {"fa": "نمونه گراف تعاملی", "en": "Sample Interactive Graph"},
+  "nodes": [
+    {"id": "root", "title": {"fa": "ریشه", "en": "Root"}, "kind": "root", "x": 0, "y": 0},
+    {"id": "a", "title": {"fa": "شاخه الف", "en": "Branch A"}, "kind": "detail", "parent": "root", "x": 200, "y": -100},
+    {"id": "b", "title": {"fa": "شاخه ب", "en": "Branch B"}, "kind": "detail", "parent": "root", "x": 200, "y": 100},
+    {"id": "a1", "title": {"fa": "فرزند A1", "en": "Child A1"}, "kind": "detail", "parent": "a", "x": 400, "y": -150},
+    {"id": "a2", "title": {"fa": "فرزند A2", "en": "Child A2"}, "kind": "detail", "parent": "a", "x": 400, "y": -50},
+    {"id": "b1", "title": {"fa": "فرزند B1", "en": "Child B1"}, "kind": "detail", "parent": "b", "x": 400, "y": 50},
+    {"id": "b2", "title": {"fa": "فرزند B2", "en": "Child B2"}, "kind": "detail", "parent": "b", "x": 400, "y": 150}
+  ],
+  "edges": [
+    {"from": "root", "to": "a", "kind": "branch"},
+    {"from": "root", "to": "b", "kind": "branch"},
+    {"from": "a", "to": "a1", "kind": "thin"},
+    {"from": "a", "to": "a2", "kind": "thin"},
+    {"from": "b", "to": "b1", "kind": "thin"},
+    {"from": "b", "to": "b2", "kind": "thin"}
+  ]
+}
